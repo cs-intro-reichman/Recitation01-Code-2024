@@ -11,7 +11,7 @@ public class FlipFlop1 {
 	  int a = 5;         
 	  int b = 7; 	
       int temp = a;		      
-	  a = b;
-	  b = temp;	
+	  a = b; // a = b -> a = 7
+	  b = temp; // b = a -> b = 7	
 	}
 }
